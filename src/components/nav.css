@@ -1,0 +1,31 @@
+.main-nav-active{
+color: blueviolet !important;
+border-bottom: 2px solid blueviolet;
+font-size: 18px;
+font-weight: 700;
+}
+a{
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-decoration: none !important;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+   
+}
+.navtab{
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-decoration: none !important;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.me-auto{
+    margin-right: 0px !important
+    ;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+}

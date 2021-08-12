@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    margin-top: 5%;
+    font-weight: 500;
+    size: 30px;
+    width: 100%;
+}
+.margin-top{
+    margin-top: 4%;
+}
+.s1{
+    margin-top: 2%;
+    font-weight: 700;
+    size: 20px;
+    width: 100%;
+}
+.para{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 50vw;
+    font-weight: 400;
+    size: 14px;
+}
+.para1{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 60vw;
+    font-weight: 400;
+    size: 14px;
+}
+.containers{
+    margin: 0px auto;
+   width: 70vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-bottom: 3px solid rgb(194, 194, 194);
+}
+.containers1{
+    margin: 0px auto;
+   width: 70vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.containers11{
+    margin: 0px auto;
+   width: 70vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-bottom: 3px solid rgb(194, 194, 194);
+}
+.containers2{
+    margin: 0px auto;
+    width: 70vw;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+   padding-bottom: 3%;
+    border-bottom: 3px solid rgb(194, 194, 194);
+
+}
+.containers3{
+    margin: 0px auto;
+    width: 85vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 3%;
+
+}
+
+.btn1{
+
+    border: none;
+padding: 10px;border-radius: 50px;
+background-color:  rgba(193, 98, 229, 1);
+color: white;
+margin-bottom: 4%;
+
+}
+.btn2{
+
+    border: none;
+padding: 5px 15px;
+border-radius: 50px;
+background-color: white;
+color: rgba(193, 98, 229, 1);
+margin-left: 5px;
+
+}
+.cardhead{
+
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+text-align: center;
+
+}
+.cardp{
+    
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.card{
+border: none !important
+;
+}
+
+.carousel-indicators{
+
+    display: none !important;
+}
+
+.clients{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.client{
+    border: 1px solid rgba(193, 98, 229, 1);
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    min-width: 300px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px;
+}
+.ct{
+   
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.cn{
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.ch{
+    display: flex;
+align-items: center;
+margin-left: -10px ;
+margin-bottom: 10px;
+}
+
+.subscribe{
+    padding: 40px;
+    background:rgba(193, 98, 229, 1);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.subscribetext{
+    min-width: 300px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.sh{
+   
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+margin-bottom: 5%;
+
+}
+.sp{
+   
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+
+}
+.subscribeform{
+    min-width: 300px;
+    margin: Opx auto;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text]
+{
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+  }
+
+  .btn{
+      border: none;
+      width: 80px;
+  }
+footer{
+
+    margin-top: 3%;
+border-top: 3px solid lightgrey;
+padding:  50px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center
+    ;
+
+    justify-content: space-around;
+}
+  .footertext{
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.10000000149011612px;
+
+  }
+
+  /* about css */
+
+  .Amain{
+    padding: 0px 8%;
+    display: flex;
+  }
+  .imgsec{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      
+
+      border-right: 1px solid  black;
+      
+  }
+  .name{
+   width: 55%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+  }
+  .desic{
+    width: 55%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.55);
+
+    
+  }
+
+  .uni{
+    color:rgba(193, 98, 229, 1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+  }
+  .text{
+      width: 70%;
+      text-align: left;
+      padding: 10px 50px;
+  }
+  .btna{
+    border: none;
+    width: 60px;
+    background-color: white
+    ;
+}
+.head{
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+
+
+}
+
+.para{
+    
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+
+
+}
+@media only screen and (max-width: 850px) {
+    .Amain{
+        padding: 0px 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .btna{
+          width: 40px;
+      }
+      .btna
+      {
+          width: 40px;
+      }
+      .imgsec{
+        width: 106%;
+        border: none;
+      }
+      .text{
+          width: 80%;
+          text-align: center;
+          padding: 20px 0px;
+      }
+      .para{
+        width: 100%;
+      }
+      .footertext{
+
+        margin-top: 30px;
+      }
+
+      
+  }
