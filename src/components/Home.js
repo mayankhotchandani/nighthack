@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Carousel,Card,Button,Form } from 'react-bootstrap'
+import { Carousel,Card} from 'react-bootstrap'
 import C11 from "./C11.png"
 import C12 from "./C12.png"
 import C13 from "./C131.png"
