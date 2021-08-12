@@ -12,15 +12,15 @@ export default class About extends Component {
             <>
                 <div className="Amain">
                     <span className="imgsec">
-                        <img src={person} style={{width:"70%"}}/>
+                        <img src={person} style={{width:"70%"}} alt="logo"/>
                         <h1 className="name">Man Parvesh Singh Randhawa</h1>
                         <h1 className="desic">CS Graduate Student</h1>
                         <h1 className="uni">The University Of Texas, Dallas</h1>
-                        <div style={{marginTop:'5%'}}><button className="btna"><img src={tweet} style={{width:"70%"}}/></button>
-                    <button className="btna"><img src={fb} style={{width:"70%"}}/></button> 
-                    <button className="btna"><img src={insta} style={{width:"70%"}}/></button> 
-                    <button className="btna"><img src={insta} style={{width:"70%"}}/></button> 
-                    <button className="btna"><img src={insta} style={{width:"70%"}}/></button> </div>
+                        <div style={{marginTop:'5%'}}><button className="btna"><img src={tweet} style={{width:"70%"}} alt="logo"/></button>
+                    <button className="btna"><img src={fb} style={{width:"70%"}} alt="logo"/></button> 
+                    <button className="btna"><img src={insta} style={{width:"70%"}} alt="logo"/></button> 
+                    <button className="btna"><img src={insta} style={{width:"70%"}} alt="logo"/></button> 
+                    <button className="btna"><img src={insta} style={{width:"70%"}} alt="logo"/></button> </div>
                     </span>
                     <div className="text">
                         <h1 className="head">Biography</h1>

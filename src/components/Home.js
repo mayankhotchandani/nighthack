@@ -100,7 +100,7 @@ export default class Home extends Component {
                 <div className="cards flex-container wrap">
                 
                 <Card className="col-md-4 card">
-                    <Card.Img variant="top" src={Card1} style={{width:"72%" , marginBottom:"25px"}}/>
+                    <Card.Img variant="top" src={Card1} alt="logo" style={{width:"72%" , marginBottom:"25px"}}/>
                     <Card.Body>
                         <Card.Title className="cardhead">Move Your Business Online</Card.Title>
                         <Card.Text className="cardp">
@@ -110,7 +110,7 @@ export default class Home extends Component {
                     </Card.Body>
                     </Card>
                 <Card className="col-md-4 card">
-                    <Card.Img variant="top" src={Card2} style={{width:"80%"}}/>
+                    <Card.Img variant="top" src={Card2} alt="logo" style={{width:"80%"}}/>
                     <Card.Body>
                         <Card.Title className="cardhead">Switch to Soprano</Card.Title>
                         <Card.Text className="cardp">
@@ -120,7 +120,7 @@ export default class Home extends Component {
                     </Card.Body>
                     </Card>
                 <Card className="col-md-4 card">
-                    <Card.Img variant="top" src={Card3} style={{width:"80%"}} />
+                    <Card.Img variant="top" src={Card3} alt="logo" style={{width:"80%"}} />
                     <Card.Body>
                         <Card.Title className="cardhead">Enjoy ur benefits</Card.Title>
                         <Card.Text className="cardp">
@@ -144,7 +144,7 @@ export default class Home extends Component {
                 <div className="clients">
                     <div className="client">
                         <div className="ch">
-                            <img src={Cl1} style={{width:'25%'}}></img>
+                            <img src={Cl1} style={{width:'25%'}} alt="logo" alt="logo"></img>
                             <h2 className="cn">Allen Jones</h2>
                         </div>
                         <p className="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features that Lorem ipsum dolor sit amet consectetur.</p>
@@ -152,7 +152,7 @@ export default class Home extends Component {
                     </div>
                     <div className="client">
                         <div className="ch">
-                            <img src={Cl2} style={{width:'25%'}}></img>
+                            <img src={Cl2} style={{width:'25%'}} alt="logo"></img>
                             <h2 className="cn">Allen Jones</h2>
                         </div>
                         <p className="ct">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features that Lorem ipsum dolor sit amet consectetur.</p>
@@ -179,10 +179,10 @@ export default class Home extends Component {
                     </div>
                 </section>
                 <footer>
-                    <div style={{width:"180px"}}><img src={logof} style={{width:"40%"}}/></div>
-                    <div><button className="btn"><img src={tweet} style={{width:"80%"}}/></button>
-                    <button className="btn"><img src={fb} style={{width:"80%"}}/></button> 
-                    <button className="btn"><img src={insta} style={{width:"80%"}}/></button> </div>
+                    <div style={{width:"180px"}}><img src={logof} style={{width:"40%"}} alt="logo"/></div>
+                    <div><button className="btn"><img src={tweet} style={{width:"80%"}} alt="logo"/></button>
+                    <button className="btn"><img src={fb} style={{width:"80%"}} alt="logo"/></button> 
+                    <button className="btn"><img src={insta} style={{width:"80%"}} alt="logo"/></button> </div>
                     <div className="footertext">Copywright 2020 Soprano.ai</div>
                 </footer>
 
